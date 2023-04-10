@@ -1,0 +1,63 @@
+= Audio Output to Monitor =
+
+Outputs the audio to the monitor.
+
+== List Cards ==
+
+* Info
+{{{sh
+pactl list cards
+
+Card #0
+        Name: alsa_card.pci-0000_00_1b.0
+        Driver: module-alsa-card.c
+        Owner Module: 7
+        Properties:
+                alsa.card = "0"
+                alsa.card_name = "HDA Intel PCH"
+                alsa.long_card_name = "HDA Intel PCH at 0x91410000 irq 126"
+                alsa.driver_name = "snd_hda_intel"
+                device.bus_path = "pci-0000:00:1b.0"
+                sysfs.path = "/devices/pci0000:00/0000:00:1b.0/sound/card0"
+                device.bus = "pci"
+                device.vendor.id = "8086"
+                device.vendor.name = "Intel Corporation"
+                device.product.id = "2284"
+                device.product.name = "Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series High Definition Audio Controller"
+                device.form_factor = "internal"
+                device.string = "0"
+                device.description = "Built-in Audio"
+                module-udev-detect.discovered = "1"
+                device.icon_name = "audio-card-pci"
+        Profiles:
+                input:analog-stereo: Analog Stereo Input (sinks: 0, sources: 1, priority: 32833, available: yes)
+                output:analog-stereo: Analog Stereo Output (sinks: 1, sources: 0, priority: 39268, available: yes)
+                output:analog-stereo+input:analog-stereo: Analog Stereo Duplex (sinks: 1, sources: 1, priority: 39333, available: yes)
+                output:hdmi-stereo: Digital Stereo (HDMI) Output (sinks: 1, sources: 0, priority: 38668, available: yes)
+                output:hdmi-stereo+input:analog-stereo: Digital Stereo (HDMI) Output + Analog Stereo Input (sinks: 1, sources: 1, priority: 38733, available: yes)
+                off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: output:hdmi-stereo+input:analog-stereo
+        Ports:
+                analog-input-mic: Microphone (type: Mic, priority: 8700, latency offset: 0 usec, availability unknown)
+                        Properties:
+                                device.icon_name = "audio-input-microphone"
+                        Part of profile(s): input:analog-stereo, output:analog-stereo+input:analog-stereo, output:hdmi-stereo+input:analog-stereo
+                analog-output-speaker: Speakers (type: Speaker, priority: 10000, latency offset: 0 usec, availability unknown)
+                        Properties:
+                                device.icon_name = "audio-speakers"
+                        Part of profile(s): output:analog-stereo, output:analog-stereo+input:analog-stereo
+                analog-output-headphones: Headphones (type: Headphones, priority: 9900, latency offset: 0 usec, not available)
+                        Properties:
+                                device.icon_name = "audio-headphones"
+                        Part of profile(s): output:analog-stereo, output:analog-stereo+input:analog-stereo
+                hdmi-output-0: HDMI / DisplayPort (type: HDMI, priority: 5900, latency offset: 0 usec, available)
+                        Properties:
+                                device.icon_name = "video-display"
+                                device.product.name = "KA242Y"
+                        Part of profile(s): output:hdmi-stereo, output:hdmi-stereo+input:analog-stereo
+
+}}}
+* Example
+{{{sh
+pactl set-card-profile alsa_card.pci-0000_00_1b.0 output:hdmi-stereo+input:analog-stereo
+}}}

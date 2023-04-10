@@ -1,0 +1,7 @@
+= Wiki =
+
+My Own Documentations
+
+[[Programs]]
+[[Issues]]
+[[Documentations]]

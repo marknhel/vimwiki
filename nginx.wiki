@@ -1,0 +1,50 @@
+= Nginx =
+
+Lightweight HTTP server and IMAP/POP3 proxy server
+
+== Reverse Proxy Example ==
+
+{{{groovy
+upstream djangoserver {
+
+        server localhost:8000;
+
+}
+
+server{
+
+        listen 80;
+
+        server_name django;
+
+        location / {
+                proxy_pass http://djangoserver;
+                proxy_set_header Host $http_host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+        }
+
+}
+}}}
+
+== List Directory Files ==
+
+{{{sh
+server{
+        listen 80;
+
+        server_name _;
+
+
+        location / {
+
+                root /home/maki/vids;
+
+                index index.html index.htm index.nginx-debian.html;
+
+                autoindex on;
+        }
+
+}
+}}}

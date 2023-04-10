@@ -1,0 +1,18 @@
+= Bluetooth Issue =
+
+Bluetooth Headset not working out of the box in pulseaudio.
+
+== Edit the `/etc/pulseaudio/default.pa`. ==
+{{{sh
+sudo vim /etc/pulseaudio/default.pa
+}}}
+
+== Add the line ==
+{{{sh
+load-module module-switch-on-connect
+}}}
+
+== Restart Pulseaudio ==
+{{{sh
+systemctl --user restart pulseaudio
+}}}
