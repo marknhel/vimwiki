@@ -2,7 +2,7 @@
 
 Lightweight HTTP server and IMAP/POP3 proxy server
 
-== Reverse Proxy Example ==
+== Reverse Proxy Sample Configuration ==
 
 {{{groovy
 upstream djangoserver {
@@ -28,7 +28,7 @@ server{
 }
 }}}
 
-== List Directory Files ==
+== List Directory Files in my Videos Directory ==
 
 {{{sh
 server{

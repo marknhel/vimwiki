@@ -2,6 +2,8 @@
 
 My Own Documentations
 
-[[Programs]]
-[[Issues]]
-[[Documentations]]
+[[programs|Programs/Softwares]]
+[[issues|Encountered Issues]]
+[[documentations|Documentations]]
+[[capstone|Capstone Prerequisites]]
+[[notes|Notes]]

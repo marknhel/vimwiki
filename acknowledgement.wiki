@@ -1,0 +1,9 @@
+= Acknowledgement =
+
+We would like to express our heartfelt gratitude to all the individuals who have contributed to the successful completion of our capstone project. Without their guidance, support, and encouragement, this project would not have been possible.
+
+First and foremost, we extend our thanks to our friends and colleagues who have been a constant source of motivation and inspiration throughout our journey. Their unwavering support, insightful feedback, and constructive criticism have helped refine our ideas and produce a project that we are truly proud of.
+
+We would also like to express our deep appreciation to our faculties, our adviser Llwelyn Elcana, and instructor Jogie Vistal, who have generously given their time and expertise to mentor and guide us through the project. Their valuable insights, extensive knowledge, and professional guidance have been invaluable in shaping our project and preparing us for the challenges of the real world.
+
+Finally, we express our heartfelt gratitude to our family members, as well as to the panelists Joseph Seiras and Mohammad Domato, who have contributed to the success of the project. Their feedback and constructive criticism during the project defense have helped us identify areas for improvement and refine our work. We are grateful for their time, effort, and expertise in evaluating the project and for their invaluable contributions to its successful completion.

@@ -1,0 +1,7 @@
+= Dedication =
+
+We dedicate this capstone project "A Network Load Balancer for MSU CICS Webservers" to all the constituents of the College who have provided us with the inspiration and motivation to pursue this project. Our aim was to develop a solution that would benefit the College community by improving the performance and reliability of the MSU CICS webservers. It is our hope that this project will serve as a testament to our commitment to making a positive impact in the College community.
+
+We dedicate this project to our fellow students who have supported us throughout our academic journey. Their enthusiasm and encouragement have been instrumental in helping us overcome the challenges that we encountered during the project. We hope that this project will inspire future students to pursue innovative solutions that address the needs of the College community.
+
+We also dedicate this project to our faculties, advisors, and instructors who have played a significant role in our academic growth and development. Their knowledge, guidance, and support have been invaluable in shaping our skills and preparing us for the challenges of the real world. We are grateful for their unwavering commitment to our success and for the opportunities they have provided us to pursue our passions and make a meaningful impact in our community.

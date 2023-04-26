@@ -1,0 +1,10 @@
+= List of Program Documentations =
+
+[[ansible|Ansible]]
+[[chromium|Chromium]]
+[[iptables|Iptables]]
+[[mpv|MPV]]
+[[nginx|Nginx]]
+[[wireguard|Wireguard VPN]]
+[[wlr-randr| WLR - Randr]]
+[[xrandr| XRANDR]]

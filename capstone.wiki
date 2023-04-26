@@ -1,0 +1,25 @@
+= Sequence for grammarian in Capstone =
+
+- [x] [[title_page| Title Page]]
+- [ ] [[Approval Page]]
+- [/] [[Abstract]]
+- [x] [[acknowledgement|Acknowledgement]]
+- [x] [[didecation|Dedication]]
+- [ ] [[Table of Contents]]
+- [ ] [[List of Figures]]
+- [ ] [[List of Tables]]
+- [ ] [[Chapter 1]]
+- [ ] [[Chapter 2]]
+- [ ] [[Chapter 3]]
+- [ ] [[Chapter 4]]
+- [ ] [[Chapter 5]]
+- [ ] [[Chapter 6]]
+- [ ] [[References]]
+
+== Addidional ==
+
+- [ ] [[Appendices]]
+- [ ] [[Evaluation Tool]]
+- [ ] [[User's Guide]]
+- [ ] [[Certificate of Proofreading]]
+- [ ] [[Curriculum Vitae]]

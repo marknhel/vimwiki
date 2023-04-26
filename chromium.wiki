@@ -1,0 +1,9 @@
+= Chromium =
+
+A web browser built for speed, simplicity, and security
+
+== Running Chromium in Wayland ==
+
+{{{sh
+chromium --enable-features=UseOzonePlatform --ozone-platform=wayland
+}}}

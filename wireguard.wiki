@@ -1,0 +1,21 @@
+= Wireguard =
+
+next generation secure network tunnel
+
+== Private Key Generation ==
+
+{{{sh
+(umask 0077; wg genkey > peer_A.key)
+}}}
+
+== Public Key Generation ==
+
+{{{sh
+wg pubkey < peer_A.key > peer_A.pub
+}}}
+
+== Preshared Key Generation ==
+
+{{{sh
+wg genpsk > peer_A-peer_B.psk
+}}}

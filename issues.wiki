@@ -1,4 +1,4 @@
 == Issues ==
 
-[[Bluetooth Issue]]
 [[Audio Output to Monitor]]
+[[Bluetooth Issue]]

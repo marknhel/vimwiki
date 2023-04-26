@@ -1,0 +1,30 @@
+= Ansible =
+
+Official assortment of Ansible collections
+
+== Hosts File ==
+
+{{{yaml
+all:
+  children:
+    monitor:
+      hosts:
+        admin:
+    logserver:
+      hosts:
+        log:
+    integrate:
+      hosts:
+        ci:
+    database:
+      hosts:
+        db:
+    lbs:
+      hosts:
+        lb:
+    webservers:
+      hosts:
+        u1:
+        u2:
+        u3:
+}}}
