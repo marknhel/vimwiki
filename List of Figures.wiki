@@ -1,0 +1,62 @@
+= Figures =
+
+- Figure 3.1.1:		Organization Chart of MSU - CICS
+- Figure 3.2:		Conceptual Framework
+- Figure 4:		Waterfall Model (SDLC)
+- Figure 4.2.1:		Hierarchical Input-Process-Output
+- Figure 4.2.2.1:	Input-Process-Output for Registration
+- Figure 4.2.2.2:	Input-Process-Output for Blocking a User
+- Figure 4.2.2.3:	Input-Process-Output for Collecting Log
+- Figure 4.2.1.1:	Admin User Case
+- Figure 4.2.2.2:	Client User Case
+- Figure 4.2.3:		Entity-Relationship Diagram
+- Figure 4.2.4:		Architectural Design
+- Figure 		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>
+- Figure <++>		<++>

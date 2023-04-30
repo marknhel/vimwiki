@@ -1,0 +1,75 @@
+= User's Guide =
+
+Certainly! Here's a basic template you can use for creating a user's guide for your capstone project:
+
+[Project Name] User's Guide
+
+Introduction:
+- Briefly introduce the project and its purpose
+- Identify the target audience for the user's guide
+
+Getting Started:
+- Provide an overview of the project and its key features
+- Explain how to access or download the project
+- Provide any necessary login or registration information
+
+Using the Project:
+- Provide step-by-step instructions for how to use the project
+- Use clear and concise language, and include visual aids such as screenshots or diagrams
+- Organize the instructions logically, using headings and subheadings as necessary
+- Highlight any special features or advanced functionality
+
+Troubleshooting:
+- Anticipate common problems or issues that users may encounter when using the project
+- Provide troubleshooting tips and solutions
+- Include a list of frequently asked questions (FAQs)
+
+Support:
+- Provide contact information for technical support or customer service
+- Encourage users to provide feedback or suggestions for improvement
+
+Conclusion:
+- Summarize the key points of the user's guide
+- Encourage users to explore the project and provide feedback
+- Thank them for using the project
+
+Remember to customize the template based on the specific requirements of your capstone project and the needs of your target audience.
+
+
+= A Local Network Load Balancer for MSU - CICS Webservers' User Guide =
+
+== Introduction ==
+
+- While a well-designed web server should not be persistently overloaded, transient periods of overload are often inevitable, since the traffic increase at the server that leads to the transient period of overload is difficult to predict (Schroeder & Balter). And right now, all students have their own laptops already which dramatically increases the MSU – CICS userbase. Due to the userbase increase, it is more likely that the webservers their using may be affected and decrease performance which causes server overload or worse, server shutdown.
+- Due to these problems, the proponents came up with a proposal to implement a network load balancer in Mindanao State University – College of Computing and Information Sciences in order to assess these problems so that the webservers will be faster, and if this is to be implemented it will be easy for the network admins to add more servers into the load balancer because of its scalability.
+
+== Getting Started ==
+
+Before getting started, this project was implemented on three Windows Servers which will serve the webservers and an Ubuntu 20.04 which will server our load balancer. But as this requires four physical machines, this can also be implemented in a virtual (through qemu or kvm) or in a containerized environment(LXD).
+=== Load Balancer Configuration ===
+
+- Installing Ubuntu Server 20.04
+- Installing XAMPP
+- Setting Up te Database
+
+=== Webservers Configuration ===
+
+- Installing Windows Server 2016
+- Installing XAMPP
+- Installing Moodle
+
+=== Server Management Module Configuration ===
+
+- Downloading and Installing Configuration Scripts
+- Django Installation
+- Installing Required Modules
+
+== Using The Project ==
+
+- Reconfigure the Load Balancer Configuration
+- Configuration Options
+
+== Conclusion ==
+
+- The keypoints in following the instructions are the Ubuntu Server which gives us access to the HAProxy Load Balancer, XAMPP which is a bundle of Apache Webserver and MariaDB Database, and Python which gives us the installation of Server Management Module.
+-
