@@ -1,0 +1,7 @@
+= ADB Commands =
+
+== Uninstalling Packages ==
+- pm uninstall -k --user 0 package_name
+
+== List Packages ==
+- pm list packages
